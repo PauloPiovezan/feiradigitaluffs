@@ -187,6 +187,12 @@
   .left-0 {
     left: 0px;
   }
+  .m-2 {
+    margin: calc(var(--spacing) * 2);
+  }
+  .m-4 {
+    margin: calc(var(--spacing) * 4);
+  }
   .mt-6 {
     margin-top: calc(var(--spacing) * 6);
   }
@@ -207,6 +213,9 @@
   }
   .h-12 {
     height: calc(var(--spacing) * 12);
+  }
+  .h-20 {
+    height: calc(var(--spacing) * 20);
   }
   .h-24 {
     height: calc(var(--spacing) * 24);
@@ -231,6 +240,9 @@
   }
   .w-5\/6 {
     width: calc(5 / 6 * 100%);
+  }
+  .w-12 {
+    width: calc(var(--spacing) * 12);
   }
   .w-20 {
     width: calc(var(--spacing) * 20);
@@ -292,6 +304,9 @@
   .rounded-3xl {
     border-radius: var(--radius-3xl);
   }
+  .rounded-full {
+    border-radius: calc(infinity * 1px);
+  }
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
@@ -307,6 +322,9 @@
   }
   .bg-red-500 {
     background-color: var(--color-red-500);
+  }
+  .p-1 {
+    padding: var(--spacing);
   }
   .p-2 {
     padding: calc(var(--spacing) * 2);
@@ -369,9 +387,20 @@
   .active\:bg-blue-800:active {
     background-color: var(--color-blue-800);
   }
+  @media (width >= 40rem) {
+    .sm\:m-2 {
+      margin: calc(var(--spacing) * 2);
+    }
+  }
   @media (width >= 64rem) {
+    .lg\:m-8 {
+      margin: calc(var(--spacing) * 8);
+    }
     .lg\:ml-36 {
       margin-left: calc(var(--spacing) * 36);
+    }
+    .lg\:h-12 {
+      height: calc(var(--spacing) * 12);
     }
     .lg\:h-24 {
       height: calc(var(--spacing) * 24);
@@ -379,11 +408,17 @@
     .lg\:h-60 {
       height: calc(var(--spacing) * 60);
     }
+    .lg\:w-12 {
+      width: calc(var(--spacing) * 12);
+    }
     .lg\:w-36 {
       width: calc(var(--spacing) * 36);
     }
     .lg\:w-48 {
       width: calc(var(--spacing) * 48);
+    }
+    .lg\:grid-cols-6 {
+      grid-template-columns: repeat(6, minmax(0, 1fr));
     }
     .lg\:gap-6 {
       gap: calc(var(--spacing) * 6);
@@ -393,6 +428,9 @@
     }
     .lg\:p-36 {
       padding: calc(var(--spacing) * 36);
+    }
+    .lg\:px-36 {
+      padding-inline: calc(var(--spacing) * 36);
     }
     .lg\:pt-8 {
       padding-top: calc(var(--spacing) * 8);
