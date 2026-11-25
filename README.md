@@ -57,7 +57,7 @@ O **Feira Digital** elimina barreiras tecnológicas para pequenos comerciantes, 
 ##  Escopo e Funcionalidades
 
 ### Mapa do Site
-* **Login (`login.html`):** Catálogo público com busca de produtos locais.
+* **Login (`login.html`):** Entrar no site como vendedor ou cliente
 * **Vitrine (`vitrine.html`):** Catálogo público com busca de produtos locais.
 * **Cliente (`cliente.html`):** Acompanhamento de pedidos.
 * **Vendedor(`vendedor.html`):** Painel administrativo de gestão.
