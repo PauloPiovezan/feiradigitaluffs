@@ -13,7 +13,7 @@
         <div class="w-screen h-36 bg-brand-blue flex flex-row justify-center items-center gap-2">
             <span class="material-icons">search</span>
             <input class="bg-brand-bg p-4 w-5/6 rounded-2xl" placeholder="Achar Produtos...">
-            <button class="material-icons m-2">person</button>
+            <button class="bg-brand-bg w-32 p-0.5 m-2 rounded-2xl" onclick="gotoMenu()">Minha página</button>
         </div>
     </header>
    <h1 class="font-extrabold text-2xl lg:text-3xl bg-brand-bg lg:ml-36 mt-6">Produtos Recomendados</h1>
@@ -117,6 +117,24 @@
 
         </div>
     </footer>
+
+    <script>
+
+        function gotoMenu(){
+            if (localStorage.getItem('login') == 'vendedor'){
+                document.location.href = 'vendedor.html'
+            }
+            else if (localStorage.getItem('login') == 'cliente'){
+                document.location.href = 'cliente.html'
+            }
+
+
+
+        }
+
+
+    </script>
+
 </body>
 
 </html>

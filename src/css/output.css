@@ -337,6 +337,12 @@
   .bg-red-500 {
     background-color: var(--color-red-500);
   }
+  .p-0 {
+    padding: 0px;
+  }
+  .p-0\.5 {
+    padding: calc(var(--spacing) * 0.5);
+  }
   .p-1 {
     padding: var(--spacing);
   }
