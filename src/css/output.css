@@ -18,6 +18,8 @@
     --text-2xl--line-height: calc(2 / 1.5);
     --text-3xl: 1.875rem;
     --text-3xl--line-height: calc(2.25 / 1.875);
+    --text-5xl: 3rem;
+    --text-5xl--line-height: 1;
     --font-weight-bold: 700;
     --font-weight-extrabold: 800;
     --radius-2xl: 1rem;
@@ -178,6 +180,9 @@
   }
 }
 @layer utilities {
+  .invisible {
+    visibility: hidden;
+  }
   .fixed {
     position: fixed;
   }
@@ -289,6 +294,15 @@
   .justify-start {
     justify-content: flex-start;
   }
+  .gap-0 {
+    gap: 0px;
+  }
+  .gap-0\.5 {
+    gap: calc(var(--spacing) * 0.5);
+  }
+  .gap-1 {
+    gap: var(--spacing);
+  }
   .gap-2 {
     gap: calc(var(--spacing) * 2);
   }
@@ -349,6 +363,10 @@
     font-size: var(--text-3xl);
     line-height: var(--tw-leading, var(--text-3xl--line-height));
   }
+  .text-5xl {
+    font-size: var(--text-5xl);
+    line-height: var(--tw-leading, var(--text-5xl--line-height));
+  }
   .text-sm {
     font-size: var(--text-sm);
     line-height: var(--tw-leading, var(--text-sm--line-height));
@@ -360,6 +378,9 @@
   .font-extrabold {
     --tw-font-weight: var(--font-weight-extrabold);
     font-weight: var(--font-weight-extrabold);
+  }
+  .text-brand-bg {
+    color: var(--color-brand-bg);
   }
   .underline {
     text-decoration-line: underline;
@@ -388,11 +409,20 @@
     background-color: var(--color-blue-800);
   }
   @media (width >= 40rem) {
+    .sm\:invisible {
+      visibility: hidden;
+    }
     .sm\:m-2 {
       margin: calc(var(--spacing) * 2);
     }
   }
   @media (width >= 64rem) {
+    .lg\:invisible {
+      visibility: hidden;
+    }
+    .lg\:visible {
+      visibility: visible;
+    }
     .lg\:m-8 {
       margin: calc(var(--spacing) * 8);
     }
@@ -419,6 +449,9 @@
     }
     .lg\:grid-cols-6 {
       grid-template-columns: repeat(6, minmax(0, 1fr));
+    }
+    .lg\:gap-2 {
+      gap: calc(var(--spacing) * 2);
     }
     .lg\:gap-6 {
       gap: calc(var(--spacing) * 6);
