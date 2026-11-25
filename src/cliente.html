@@ -1,152 +1,160 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href="css/output.css">
+    <link rel="stylesheet" href="css/output.css">
     <title>Cliente</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
-<body class=" min-h-screen flex flex-col bg-brand-bg">
+<body class="min-h-screen flex flex-col bg-brand-bg">
     <header>
         <div class="w-screen h-36 bg-brand-blue flex flex-row justify-center items-center gap-2 p-2">
             <h1 class="text-brand-bg font-extrabold text-5xl">Página do Cliente</h1>
             <button class="material-icons" onclick="Vitrine()">shopping_cart</button>
         </div>
     </header>
-   <h1 class="font-extrabold text-2xl lg:text-3xl bg-brand-bg lg:ml-36 mt-6">Pedidos pendentes</h1>
+
+    <h1 class="font-extrabold text-2xl lg:text-3xl bg-brand-bg lg:ml-36 mt-6">Pedidos pendentes</h1>
+
     <div class="bg-brand-bg w-screen grid grid-cols-3 lg:grid-cols-6 flex-1 p-4 lg:pt-8 lg:px-36 gap-5">
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Pedido #XXXX</h1>
-            <h1 class="text-sm invisible lg:visible">Vendedor</h1>
-            <h1 class="text-sm invisible lg:visible">Itens</h1>
-            <h1 class="text-sm invisible lg:visible">Preço</h1>
-            <h1 class="text-sm invisible lg:visible">Status</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Pedido #1042</h1>
+            <h1 class="text-sm invisible lg:visible">Maria Doces</h1>
+            <h1 class="text-sm invisible lg:visible">Bolo de cenoura (1 un.)</h1>
+            <h1 class="text-sm invisible lg:visible">R$ 35,00</h1>
+            <h1 class="text-sm invisible lg:visible">Aguardando retirada</h1>
         </div>
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Pedido #XXXX</h1>
-            <h1 class="text-sm invisible lg:visible">Vendedor</h1>
-            <h1 class="text-sm invisible lg:visible">Itens</h1>
-            <h1 class="text-sm invisible lg:visible">Preço</h1>
-            <h1 class="text-sm invisible lg:visible">Status</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Pedido #1043</h1>
+            <h1 class="text-sm invisible lg:visible">Artesanato da Ana</h1>
+            <h1 class="text-sm invisible lg:visible">Caneca artesanal (2 un.)</h1>
+            <h1 class="text-sm invisible lg:visible">R$ 48,00</h1>
+            <h1 class="text-sm invisible lg:visible">Em preparação</h1>
         </div>
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Pedido #XXXX</h1>
-            <h1 class="text-sm invisible lg:visible">Vendedor</h1>
-            <h1 class="text-sm invisible lg:visible">Itens</h1>
-            <h1 class="text-sm invisible lg:visible">Preço</h1>
-            <h1 class="text-sm invisible lg:visible">Status</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1546094096-0df4bcaaa337?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Pedido #1044</h1>
+            <h1 class="text-sm invisible lg:visible">Horta do João</h1>
+            <h1 class="text-sm invisible lg:visible">Tomate e alface (3 itens)</h1>
+            <h1 class="text-sm invisible lg:visible">R$ 22,50</h1>
+            <h1 class="text-sm invisible lg:visible">Pagamento aprovado</h1>
         </div>
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Pedido #XXXX</h1>
-            <h1 class="text-sm invisible lg:visible">Vendedor</h1>
-            <h1 class="text-sm invisible lg:visible">Itens</h1>
-            <h1 class="text-sm invisible lg:visible">Preço</h1>
-            <h1 class="text-sm invisible lg:visible">Status</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Pedido #1045</h1>
+            <h1 class="text-sm invisible lg:visible">Papelaria Central</h1>
+            <h1 class="text-sm invisible lg:visible">Caderno artesanal (1 un.)</h1>
+            <h1 class="text-sm invisible lg:visible">R$ 29,90</h1>
+            <h1 class="text-sm invisible lg:visible">Aguardando confirmação</h1>
         </div>
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Pedido #XXXX</h1>
-            <h1 class="text-sm invisible lg:visible">Vendedor</h1>
-            <h1 class="text-sm invisible lg:visible">Itens</h1>
-            <h1 class="text-sm invisible lg:visible">Preço</h1>
-            <h1 class="text-sm invisible lg:visible">Status</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1544816155-12df9643f363?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Pedido #1046</h1>
+            <h1 class="text-sm invisible lg:visible">Costura da Lúcia</h1>
+            <h1 class="text-sm invisible lg:visible">Bolsa de tecido (1 un.)</h1>
+            <h1 class="text-sm invisible lg:visible">R$ 55,00</h1>
+            <h1 class="text-sm invisible lg:visible">Em preparação</h1>
         </div>
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Pedido #XXXX</h1>
-            <h1 class="text-sm invisible lg:visible">Vendedor</h1>
-            <h1 class="text-sm invisible lg:visible">Itens</h1>
-            <h1 class="text-sm invisible lg:visible">Preço</h1>
-            <h1 class="text-sm invisible lg:visible">Status</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Pedido #1047</h1>
+            <h1 class="text-sm invisible lg:visible">Café do Bairro</h1>
+            <h1 class="text-sm invisible lg:visible">Café moído (2 pacotes)</h1>
+            <h1 class="text-sm invisible lg:visible">R$ 32,00</h1>
+            <h1 class="text-sm invisible lg:visible">Pronto para retirada</h1>
         </div>
-        
-        
 
     </div>
+
     <h1 class="font-extrabold text-2xl lg:text-3xl bg-brand-bg lg:ml-36 mt-6">Pedidos entregues</h1>
+
     <div class="bg-brand-bg w-screen grid grid-cols-3 lg:grid-cols-6 flex-1 p-4 lg:pt-8 lg:px-36 gap-5">
-        
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Pedido #XXXX</h1>
-            <h1 class="text-sm invisible lg:visible">Vendedor</h1>
-            <h1 class="text-sm invisible lg:visible">Itens</h1>
-            <h1 class="text-sm invisible lg:visible">Preço</h1>
-            <h1 class="text-sm invisible lg:visible">Status</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Pedido #1036</h1>
+            <h1 class="text-sm invisible lg:visible">Padaria da Praça</h1>
+            <h1 class="text-sm invisible lg:visible">Pão caseiro (2 un.)</h1>
+            <h1 class="text-sm invisible lg:visible">R$ 24,00</h1>
+            <h1 class="text-sm invisible lg:visible">Entregue em 20/11</h1>
         </div>
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Pedido #XXXX</h1>
-            <h1 class="text-sm invisible lg:visible">Vendedor</h1>
-            <h1 class="text-sm invisible lg:visible">Itens</h1>
-            <h1 class="text-sm invisible lg:visible">Preço</h1>
-            <h1 class="text-sm invisible lg:visible">Status</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1578500494198-246f612d3b3d?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Pedido #1037</h1>
+            <h1 class="text-sm invisible lg:visible">Ateliê da Bia</h1>
+            <h1 class="text-sm invisible lg:visible">Vaso decorativo (1 un.)</h1>
+            <h1 class="text-sm invisible lg:visible">R$ 42,00</h1>
+            <h1 class="text-sm invisible lg:visible">Entregue em 19/11</h1>
         </div>
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Pedido #XXXX</h1>
-            <h1 class="text-sm invisible lg:visible">Vendedor</h1>
-            <h1 class="text-sm invisible lg:visible">Itens</h1>
-            <h1 class="text-sm invisible lg:visible">Preço</h1>
-            <h1 class="text-sm invisible lg:visible">Status</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Pedido #1038</h1>
+            <h1 class="text-sm invisible lg:visible">Sabor Caseiro</h1>
+            <h1 class="text-sm invisible lg:visible">Geleia artesanal (2 un.)</h1>
+            <h1 class="text-sm invisible lg:visible">R$ 30,00</h1>
+            <h1 class="text-sm invisible lg:visible">Entregue em 18/11</h1>
         </div>
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Pedido #XXXX</h1>
-            <h1 class="text-sm invisible lg:visible">Vendedor</h1>
-            <h1 class="text-sm invisible lg:visible">Itens</h1>
-            <h1 class="text-sm invisible lg:visible">Preço</h1>
-            <h1 class="text-sm invisible lg:visible">Status</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Pedido #1039</h1>
+            <h1 class="text-sm invisible lg:visible">Floricultura Primavera</h1>
+            <h1 class="text-sm invisible lg:visible">Buquê de flores (1 un.)</h1>
+            <h1 class="text-sm invisible lg:visible">R$ 65,00</h1>
+            <h1 class="text-sm invisible lg:visible">Entregue em 17/11</h1>
         </div>
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Pedido #XXXX</h1>
-            <h1 class="text-sm invisible lg:visible">Vendedor</h1>
-            <h1 class="text-sm invisible lg:visible">Itens</h1>
-            <h1 class="text-sm invisible lg:visible">Preço</h1>
-            <h1 class="text-sm invisible lg:visible">Status</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Pedido #1040</h1>
+            <h1 class="text-sm invisible lg:visible">Queijos do Vale</h1>
+            <h1 class="text-sm invisible lg:visible">Queijo colonial (500g)</h1>
+            <h1 class="text-sm invisible lg:visible">R$ 38,00</h1>
+            <h1 class="text-sm invisible lg:visible">Entregue em 16/11</h1>
         </div>
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Pedido #XXXX</h1>
-            <h1 class="text-sm invisible lg:visible">Vendedor</h1>
-            <h1 class="text-sm invisible lg:visible">Itens</h1>
-            <h1 class="text-sm invisible lg:visible">Preço</h1>
-            <h1 class="text-sm invisible lg:visible">Status</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1587049352851-8d4e89133924?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Pedido #1041</h1>
+            <h1 class="text-sm invisible lg:visible">Empório da Vila</h1>
+            <h1 class="text-sm invisible lg:visible">Mel artesanal (1 pote)</h1>
+            <h1 class="text-sm invisible lg:visible">R$ 27,00</h1>
+            <h1 class="text-sm invisible lg:visible">Entregue em 15/11</h1>
         </div>
-        
 
     </div>
 
     <footer class="mt-6 w-full bg-brand-blue text-brand-bg py-6 px-4 lg:px-36">
-    <div class="flex flex-col md:flex-row justify-between items-center gap-4">
-        <div class="font-extrabold text-xl">Feira Digital</div>
+        <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+            <div class="font-extrabold text-xl">Feira Digital</div>
 
-        <nav class="flex flex-wrap justify-center gap-6 text-sm font-medium">
-            <a href="#" class="hover:underline">Ajuda e Suporte</a>
-            <a href="#" class="hover:underline">Termos de Uso</a>
-        </nav>
+            <nav class="flex flex-wrap justify-center gap-6 text-sm font-medium">
+                <a href="#" class="hover:underline">Ajuda e Suporte</a>
+                <a href="#" class="hover:underline">Termos de Uso</a>
+            </nav>
 
-        <p class="text-xs opacity-80">© 2026 Feira Digital. Todos os direitos reservados.</p>
-    </div>
+            <p class="text-xs opacity-80">© 2026 Feira Digital. Todos os direitos reservados.</p>
+        </div>
     </footer>
 
     <script>
-
-        function Vitrine(){
-
+        function Vitrine() {
             document.location.href = 'vitrine.html'
-
         }
-
     </script>
 
 </body>
-
 </html>

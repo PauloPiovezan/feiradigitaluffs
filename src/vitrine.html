@@ -1,147 +1,168 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href="css/output.css">
+    <link rel="stylesheet" href="css/output.css">
     <title>Vitrine</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
-<body class=" min-h-screen flex flex-col bg-brand-bg">
+<body class="min-h-screen flex flex-col bg-brand-bg">
     <header>
         <div class="w-screen h-36 bg-brand-blue flex flex-row justify-center items-center gap-2">
             <span class="material-icons">search</span>
-            <input class="bg-brand-bg p-4 w-5/6 rounded-2xl" placeholder="Achar Produtos...">
+            <input class="bg-brand-bg p-4 w-5/6 rounded-2xl" placeholder="Buscar produtos, lojas e vendedores...">
             <button class="bg-brand-bg w-32 p-0.5 m-2 rounded-2xl" onclick="gotoMenu()">Minha página</button>
         </div>
     </header>
-   <h1 class="font-extrabold text-2xl lg:text-3xl bg-brand-bg lg:ml-36 mt-6">Produtos Recomendados</h1>
+
+    <h1 class="font-extrabold text-2xl lg:text-3xl bg-brand-bg lg:ml-36 mt-6">
+        Produtos Recomendados
+    </h1>
+
     <div class="bg-brand-bg w-screen grid grid-cols-3 lg:grid-cols-6 flex-1 p-4 lg:pt-8 lg:px-36 gap-5">
-        
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-2 lg:gap-6 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Produto</h1>
-            <h1 class="text-sm">Preço</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-2 lg:gap-6 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Bolo de cenoura</h1>
+            <h1 class="text-sm">R$ 35,00</h1>
         </div>
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-2 lg:gap-6 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Produto</h1>
-            <h1 class="text-sm">Preço</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-2 lg:gap-6 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1587049352851-8d4e89133924?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Mel artesanal</h1>
+            <h1 class="text-sm">R$ 27,00</h1>
         </div>
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-2 lg:gap-6 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Produto</h1>
-            <h1 class="text-sm">Preço</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-2 lg:gap-6 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Queijo colonial</h1>
+            <h1 class="text-sm">R$ 38,00</h1>
         </div>
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-2 lg:gap-6 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Produto</h1>
-            <h1 class="text-sm">Preço</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-2 lg:gap-6 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Caneca artesanal</h1>
+            <h1 class="text-sm">R$ 24,00</h1>
         </div>
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-2 lg:gap-6 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Produto</h1>
-            <h1 class="text-sm">Preço</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-2 lg:gap-6 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Café moído</h1>
+            <h1 class="text-sm">R$ 32,00</h1>
         </div>
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-2 lg:gap-6 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Produto</h1>
-            <h1 class="text-sm">Preço</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-2 lg:gap-6 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1544816155-12df9643f363?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Bolsa de tecido</h1>
+            <h1 class="text-sm">R$ 55,00</h1>
         </div>
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-2 lg:gap-6 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Produto</h1>
-            <h1 class="text-sm">Preço</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-2 lg:gap-6 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Pão caseiro</h1>
+            <h1 class="text-sm">R$ 12,00</h1>
         </div>
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-2 lg:gap-6 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Produto</h1>
-            <h1 class="text-sm">Preço</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-2 lg:gap-6 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Geleia de morango</h1>
+            <h1 class="text-sm">R$ 15,00</h1>
         </div>
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-2 lg:gap-6 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Produto</h1>
-            <h1 class="text-sm">Preço</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-2 lg:gap-6 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1578500494198-246f612d3b3d?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Vaso decorativo</h1>
+            <h1 class="text-sm">R$ 42,00</h1>
         </div>
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-2 lg:gap-6 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Produto</h1>
-            <h1 class="text-sm">Preço</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-2 lg:gap-6 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Buquê de flores</h1>
+            <h1 class="text-sm">R$ 65,00</h1>
         </div>
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-2 lg:gap-6 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Produto</h1>
-            <h1 class="text-sm">Preço</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-2 lg:gap-6 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1546094096-0df4bcaaa337?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Tomate 1kg</h1>
+            <h1 class="text-sm">R$ 9,50</h1>
         </div>
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-2 lg:gap-6 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Produto</h1>
-            <h1 class="text-sm">Preço</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-2 lg:gap-6 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Caderno artesanal</h1>
+            <h1 class="text-sm">R$ 29,90</h1>
         </div>
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-2 lg:gap-6 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Produto</h1>
-            <h1 class="text-sm">Preço</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-2 lg:gap-6 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1600857544200-b2f666a9a2ec?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Sabonete natural</h1>
+            <h1 class="text-sm">R$ 14,00</h1>
         </div>
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-2 lg:gap-6 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Produto</h1>
-            <h1 class="text-sm">Preço</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-2 lg:gap-6 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1587049352851-8d4e89133924?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Doce de leite 400g</h1>
+            <h1 class="text-sm">R$ 22,00</h1>
         </div>
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-2 lg:gap-6 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Produto</h1>
-            <h1 class="text-sm">Preço</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-2 lg:gap-6 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1519915028121-7d3463d20b13?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Torta de limão</h1>
+            <h1 class="text-sm">R$ 52,00</h1>
         </div>
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-2 lg:gap-6 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Produto</h1>
-            <h1 class="text-sm">Preço</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-2 lg:gap-6 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Chinelo artesanal</h1>
+            <h1 class="text-sm">R$ 39,90</h1>
         </div>
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-2 lg:gap-6 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Produto</h1>
-            <h1 class="text-sm">Preço</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-2 lg:gap-6 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Granola caseira</h1>
+            <h1 class="text-sm">R$ 18,00</h1>
         </div>
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-2 lg:gap-6 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Produto</h1>
-            <h1 class="text-sm">Preço</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-2 lg:gap-6 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1600166898405-da9535204843?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Manta de crochê</h1>
+            <h1 class="text-sm">R$ 89,00</h1>
         </div>
-        
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-2 lg:gap-6 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1576045057995-568f588f82fb?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Alface orgânica</h1>
+            <h1 class="text-sm">R$ 5,00</h1>
+        </div>
 
     </div>
+
     <footer class="mt-6 w-full bg-brand-blue text-brand-bg py-6 px-4 lg:px-36">
-    <div class="flex flex-col md:flex-row justify-between items-center gap-4">
-        <div class="font-extrabold text-xl">Feira Digital</div>
+        <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+            <div class="font-extrabold text-xl">Feira Digital</div>
 
-        <nav class="flex flex-wrap justify-center gap-6 text-sm font-medium">
-            <a href="#" class="hover:underline">Ajuda e Suporte</a>
-            <a href="#" class="hover:underline">Termos de Uso</a>
-        </nav>
+            <nav class="flex flex-wrap justify-center gap-6 text-sm font-medium">
+                <a href="#" class="hover:underline">Ajuda e Suporte</a>
+                <a href="#" class="hover:underline">Termos de Uso</a>
+            </nav>
 
-        <p class="text-xs opacity-80">© 2026 Feira Digital. Todos os direitos reservados.</p>
-    </div>
+            <p class="text-xs opacity-80">© 2026 Feira Digital. Todos os direitos reservados.</p>
+        </div>
     </footer>
 
     <script>
-
-        function gotoMenu(){
-            if (localStorage.getItem('login') == 'vendedor'){
+        function gotoMenu() {
+            if (localStorage.getItem('login') == 'vendedor') {
                 document.location.href = 'vendedor.html'
             }
-            else if (localStorage.getItem('login') == 'cliente'){
+            else if (localStorage.getItem('login') == 'cliente') {
                 document.location.href = 'cliente.html'
             }
-
-
-
         }
-
-
     </script>
 
 </body>
-
 </html>

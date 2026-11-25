@@ -1,152 +1,160 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href="css/output.css">
+    <link rel="stylesheet" href="css/output.css">
     <title>Vendedor</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
-<body class=" min-h-screen flex flex-col bg-brand-bg">
+<body class="min-h-screen flex flex-col bg-brand-bg">
     <header>
         <div class="w-screen h-36 bg-brand-blue flex flex-row justify-center items-center gap-2 p-2">
             <h1 class="text-brand-bg font-extrabold text-5xl">Página do Vendedor</h1>
             <button class="material-icons" onclick="Vitrine()">shopping_cart</button>
         </div>
     </header>
-   <h1 class="font-extrabold text-2xl lg:text-3xl bg-brand-bg lg:ml-36 mt-6">Pedidos pendentes</h1>
+
+    <h1 class="font-extrabold text-2xl lg:text-3xl bg-brand-bg lg:ml-36 mt-6">Pedidos pendentes</h1>
+
     <div class="bg-brand-bg w-screen grid grid-cols-3 lg:grid-cols-6 flex-1 p-4 lg:pt-8 lg:px-36 gap-5">
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Pedido #XXXX</h1>
-            <h1 class="text-sm invisible lg:visible">Cliente</h1>
-            <h1 class="text-sm invisible lg:visible">Itens</h1>
-            <h1 class="text-sm invisible lg:visible">Preço</h1>
-            <h1 class="text-sm invisible lg:visible">Status</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Pedido #1048</h1>
+            <h1 class="text-sm invisible lg:visible">Ana Oliveira</h1>
+            <h1 class="text-sm invisible lg:visible">Bolo de chocolate (1 un.)</h1>
+            <h1 class="text-sm invisible lg:visible">R$ 45,00</h1>
+            <h1 class="text-sm invisible lg:visible">Aguardando confirmação</h1>
         </div>
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Pedido #XXXX</h1>
-            <h1 class="text-sm invisible lg:visible">Cliente</h1>
-            <h1 class="text-sm invisible lg:visible">Itens</h1>
-            <h1 class="text-sm invisible lg:visible">Preço</h1>
-            <h1 class="text-sm invisible lg:visible">Status</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Pedido #1049</h1>
+            <h1 class="text-sm invisible lg:visible">Carlos Mendes</h1>
+            <h1 class="text-sm invisible lg:visible">Bolo de cenoura (2 un.)</h1>
+            <h1 class="text-sm invisible lg:visible">R$ 70,00</h1>
+            <h1 class="text-sm invisible lg:visible">Pagamento aprovado</h1>
         </div>
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Pedido #XXXX</h1>
-            <h1 class="text-sm invisible lg:visible">Cliente</h1>
-            <h1 class="text-sm invisible lg:visible">Itens</h1>
-            <h1 class="text-sm invisible lg:visible">Preço</h1>
-            <h1 class="text-sm invisible lg:visible">Status</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1519915028121-7d3463d20b13?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Pedido #1050</h1>
+            <h1 class="text-sm invisible lg:visible">Mariana Costa</h1>
+            <h1 class="text-sm invisible lg:visible">Torta de limão (1 un.)</h1>
+            <h1 class="text-sm invisible lg:visible">R$ 52,00</h1>
+            <h1 class="text-sm invisible lg:visible">Em preparação</h1>
         </div>
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Pedido #XXXX</h1>
-            <h1 class="text-sm invisible lg:visible">Cliente</h1>
-            <h1 class="text-sm invisible lg:visible">Itens</h1>
-            <h1 class="text-sm invisible lg:visible">Preço</h1>
-            <h1 class="text-sm invisible lg:visible">Status</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1495147466023-ac5c588e2e94?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Pedido #1051</h1>
+            <h1 class="text-sm invisible lg:visible">Pedro Almeida</h1>
+            <h1 class="text-sm invisible lg:visible">Docinhos sortidos (50 un.)</h1>
+            <h1 class="text-sm invisible lg:visible">R$ 85,00</h1>
+            <h1 class="text-sm invisible lg:visible">Aguardando retirada</h1>
         </div>
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Pedido #XXXX</h1>
-            <h1 class="text-sm invisible lg:visible">Cliente</h1>
-            <h1 class="text-sm invisible lg:visible">Itens</h1>
-            <h1 class="text-sm invisible lg:visible">Preço</h1>
-            <h1 class="text-sm invisible lg:visible">Status</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1519869325930-281384150729?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Pedido #1052</h1>
+            <h1 class="text-sm invisible lg:visible">Juliana Ferreira</h1>
+            <h1 class="text-sm invisible lg:visible">Pão de mel (10 un.)</h1>
+            <h1 class="text-sm invisible lg:visible">R$ 60,00</h1>
+            <h1 class="text-sm invisible lg:visible">Em preparação</h1>
         </div>
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Pedido #XXXX</h1>
-            <h1 class="text-sm invisible lg:visible">Cliente</h1>
-            <h1 class="text-sm invisible lg:visible">Itens</h1>
-            <h1 class="text-sm invisible lg:visible">Preço</h1>
-            <h1 class="text-sm invisible lg:visible">Status</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Pedido #1053</h1>
+            <h1 class="text-sm invisible lg:visible">Lucas Rodrigues</h1>
+            <h1 class="text-sm invisible lg:visible">Cupcakes (6 un.)</h1>
+            <h1 class="text-sm invisible lg:visible">R$ 48,00</h1>
+            <h1 class="text-sm invisible lg:visible">Pronto para retirada</h1>
         </div>
-        
-        
 
     </div>
+
     <h1 class="font-extrabold text-2xl lg:text-3xl bg-brand-bg lg:ml-36 mt-6">Pedidos entregues</h1>
+
     <div class="bg-brand-bg w-screen grid grid-cols-3 lg:grid-cols-6 flex-1 p-4 lg:pt-8 lg:px-36 gap-5">
-        
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Pedido #XXXX</h1>
-            <h1 class="text-sm invisible lg:visible">Cliente</h1>
-            <h1 class="text-sm invisible lg:visible">Itens</h1>
-            <h1 class="text-sm invisible lg:visible">Preço</h1>
-            <h1 class="text-sm invisible lg:visible">Status</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Pedido #1042</h1>
+            <h1 class="text-sm invisible lg:visible">Fernanda Lima</h1>
+            <h1 class="text-sm invisible lg:visible">Bolo de cenoura (1 un.)</h1>
+            <h1 class="text-sm invisible lg:visible">R$ 35,00</h1>
+            <h1 class="text-sm invisible lg:visible">Entregue em 20/11</h1>
         </div>
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Pedido #XXXX</h1>
-            <h1 class="text-sm invisible lg:visible">Cliente</h1>
-            <h1 class="text-sm invisible lg:visible">Itens</h1>
-            <h1 class="text-sm invisible lg:visible">Preço</h1>
-            <h1 class="text-sm invisible lg:visible">Status</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Pedido #1043</h1>
+            <h1 class="text-sm invisible lg:visible">Roberto Santos</h1>
+            <h1 class="text-sm invisible lg:visible">Bolo de chocolate (1 un.)</h1>
+            <h1 class="text-sm invisible lg:visible">R$ 45,00</h1>
+            <h1 class="text-sm invisible lg:visible">Entregue em 19/11</h1>
         </div>
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Pedido #XXXX</h1>
-            <h1 class="text-sm invisible lg:visible">Cliente</h1>
-            <h1 class="text-sm invisible lg:visible">Itens</h1>
-            <h1 class="text-sm invisible lg:visible">Preço</h1>
-            <h1 class="text-sm invisible lg:visible">Status</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1519915028121-7d3463d20b13?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Pedido #1044</h1>
+            <h1 class="text-sm invisible lg:visible">Camila Souza</h1>
+            <h1 class="text-sm invisible lg:visible">Torta de morango (1 un.)</h1>
+            <h1 class="text-sm invisible lg:visible">R$ 58,00</h1>
+            <h1 class="text-sm invisible lg:visible">Entregue em 18/11</h1>
         </div>
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Pedido #XXXX</h1>
-            <h1 class="text-sm invisible lg:visible">Cliente</h1>
-            <h1 class="text-sm invisible lg:visible">Itens</h1>
-            <h1 class="text-sm invisible lg:visible">Preço</h1>
-            <h1 class="text-sm invisible lg:visible">Status</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1495147466023-ac5c588e2e94?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Pedido #1045</h1>
+            <h1 class="text-sm invisible lg:visible">Rafael Martins</h1>
+            <h1 class="text-sm invisible lg:visible">Docinhos sortidos (25 un.)</h1>
+            <h1 class="text-sm invisible lg:visible">R$ 45,00</h1>
+            <h1 class="text-sm invisible lg:visible">Entregue em 17/11</h1>
         </div>
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Pedido #XXXX</h1>
-            <h1 class="text-sm invisible lg:visible">Cliente</h1>
-            <h1 class="text-sm invisible lg:visible">Itens</h1>
-            <h1 class="text-sm invisible lg:visible">Preço</h1>
-            <h1 class="text-sm invisible lg:visible">Status</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Pedido #1046</h1>
+            <h1 class="text-sm invisible lg:visible">Beatriz Oliveira</h1>
+            <h1 class="text-sm invisible lg:visible">Pão caseiro (3 un.)</h1>
+            <h1 class="text-sm invisible lg:visible">R$ 36,00</h1>
+            <h1 class="text-sm invisible lg:visible">Entregue em 16/11</h1>
         </div>
-        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3 ">
-            <img src = "./img/images.png" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl">
-            <h1 class="font-bold">Pedido #XXXX</h1>
-            <h1 class="text-sm invisible lg:visible">Cliente</h1>
-            <h1 class="text-sm invisible lg:visible">Itens</h1>
-            <h1 class="text-sm invisible lg:visible">Preço</h1>
-            <h1 class="text-sm invisible lg:visible">Status</h1>
+
+        <div class="outline-brand-surface outline-3 rounded-3xl bg-brand-bg w-24 h-36 lg:w-48 lg:h-60 p-2 flex flex-col gap-0.5 items-center justify-start pt-3">
+            <img src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?w=400" class="w-20 h-12 lg:w-36 lg:h-24 rounded-2xl object-cover">
+            <h1 class="font-bold">Pedido #1047</h1>
+            <h1 class="text-sm invisible lg:visible">Gabriel Pereira</h1>
+            <h1 class="text-sm invisible lg:visible">Cupcakes (12 un.)</h1>
+            <h1 class="text-sm invisible lg:visible">R$ 96,00</h1>
+            <h1 class="text-sm invisible lg:visible">Entregue em 15/11</h1>
         </div>
-        
 
     </div>
 
     <footer class="mt-6 w-full bg-brand-blue text-brand-bg py-6 px-4 lg:px-36">
-    <div class="flex flex-col md:flex-row justify-between items-center gap-4">
-        <div class="font-extrabold text-xl">Feira Digital</div>
+        <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+            <div class="font-extrabold text-xl">Feira Digital</div>
 
-        <nav class="flex flex-wrap justify-center gap-6 text-sm font-medium">
-            <a href="#" class="hover:underline">Ajuda e Suporte</a>
-            <a href="#" class="hover:underline">Termos de Uso</a>
-        </nav>
+            <nav class="flex flex-wrap justify-center gap-6 text-sm font-medium">
+                <a href="#" class="hover:underline">Ajuda e Suporte</a>
+                <a href="#" class="hover:underline">Termos de Uso</a>
+            </nav>
 
-        <p class="text-xs opacity-80">© 2026 Feira Digital. Todos os direitos reservados.</p>
-    </div>
+            <p class="text-xs opacity-80">© 2026 Feira Digital. Todos os direitos reservados.</p>
+        </div>
     </footer>
 
     <script>
-
-        function Vitrine(){
-
+        function Vitrine() {
             document.location.href = 'vitrine.html'
-
         }
-
     </script>
 
 </body>
-
 </html>
